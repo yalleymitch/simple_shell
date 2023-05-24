@@ -222,11 +222,7 @@ void free_list(list_t **);
 size_t list_len(const list_t *);
 char **list_to_strings(list_t *);
 size_t print_list(const list_t *);
-<<<<<<< HEAD
-list_t *node_starts_with(list_t *, char *, char);
-=======
 list_t*node_starts_with(list_t *, char *, char);
->>>>>>> 3c573bcba4bd1ad9c62c88a2f3418d8383002ae0
 ssize_t get_node_index(list_t *, list_t *);
 
 /* toem_vars.c */
